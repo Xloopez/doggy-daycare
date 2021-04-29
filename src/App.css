@@ -16,8 +16,9 @@
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 1em;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -36,3 +37,4 @@
     transform: rotate(360deg);
   }
 }
+

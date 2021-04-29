@@ -1,0 +1,94 @@
+
+
+.cardContainer {
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: #282c34;
+    padding: 30px;
+    margin-top: 3vw;
+    background-color: transparent;
+    
+}
+.dog-info {
+    max-width: 1000vw;
+}
+
+
+.ownerInfo {
+    border: 2px solid #343944;
+    background-color: #343944;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 3vw;
+    grid-gap: 0.5em;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5em;
+    border-radius: 15px;
+    width: 7em;
+    height: 5em;
+
+}
+
+.owner-card-container {
+    align-items: center;
+    justify-content: center;
+    grid-gap: 0.2vw;
+    font-size: calc(10px + 2vmin);
+}
+
+.OwnerInfo:hover {
+    background: #21242b;
+
+}
+
+@media (min-width: 450px) {
+    .cardContainer div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-content: center;
+        grid-gap: 0.2vw;
+
+    }
+
+    .cardContainer {
+        padding: 20px;
+    }
+
+} 
+
+@media (min-width: 550px) {
+    .cardContainer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-left: 9%;
+    }
+
+
+} 
+
+@media (min-width: 1020px) {
+    .cardContainer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-left: 13%;
+    }
+
+
+} 
+
+@media (min-width: 870px) {
+
+    .cardContainer {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        padding-left: 16%;
+    }
+
+
+} 
