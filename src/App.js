@@ -4,7 +4,7 @@ import './App.css';
 import Welcome from './components/Welcome';
 import Owners from './components/Owners';
 import EachOwner from './components/EachOwner';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {HashRouter as Router, Route, Switch} from 'react-router-dom'
 import EachDog from './components/EachDog';
 
 function App() {
