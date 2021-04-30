@@ -2,7 +2,7 @@
 .welcomeScreen {
   border: 2px solid #343944;
   background-color: #343944;
-  margin-left: 5vw;
+  align-items: center;
   margin-right: 5vw;
   padding: 20px;
 }
@@ -27,8 +27,6 @@
 
   .welcomeScreenBtns:hover {
     background: #21242b;
-    margin-top: 2vw;
-    transform: scale(1.1, 1.1);
 
   }
 

@@ -13,8 +13,6 @@ const Owners = ({dogData, setEachDog}) => {
     return (
         <div className="cardContainer">
 
-            <div>
-            
                 <div className="dog-info">
                     {dogData && dogData.map((dog, index) => {
                         return (
@@ -32,7 +30,6 @@ const Owners = ({dogData, setEachDog}) => {
                     })}
                 </div>
 
-            </div>
         </div>
     );
 }

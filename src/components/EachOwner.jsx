@@ -11,7 +11,8 @@ const EachOwner = ({dogList, owner, index, setEachDog}) => {
         <div className="owner-card-container">
             
             <div className="ownerInfo">
-                <p>{owner.name} {owner.lastName} {owner.phoneNumber}</p>
+                <p>{owner.name} {owner.lastName} </p>
+                <p>{owner.phoneNumber}</p>
 
             </div>
 

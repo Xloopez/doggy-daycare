@@ -19,7 +19,7 @@ const EachDog = ({dog}) => {
 
             <img className="img" src={dog.img}
                 alt={"The dog " + dog.name + "img goes here"}
-                width="180vw"
+                width="190vw"
                 height="200vw">
             </img>
 

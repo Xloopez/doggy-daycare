@@ -31,27 +31,24 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-      <main>
-      <Router>
-          <Switch>
+      <main className="main">
+        <Router>
+            <Switch>
 
-          <Route exact path="/">
-              <Welcome fetchData={() => fetchData()}/>
-            </Route>
+            <Route exact path="/">
+                <Welcome fetchData={() => fetchData()}/>
+              </Route>
 
-            <Route path="/owners">
-              <Owners dogData={dogData} setEachDog={setEachDog}/>
-            </Route>
+              <Route path="/owners">
+                <Owners dogData={dogData} setEachDog={setEachDog}/>
+              </Route>
 
-            <Route path="/eachDog">
-              <EachDog dog={eachDog}/>
-            </Route>
+              <Route path="/eachDog">
+                <EachDog dog={eachDog}/>
+              </Route>
 
-
-
-
-          </Switch>
-      </Router>
+            </Switch>
+        </Router>
 
       </main>
         
